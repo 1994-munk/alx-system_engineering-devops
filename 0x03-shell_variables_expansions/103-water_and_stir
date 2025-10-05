@@ -1,2 +1,2 @@
 #!/bin/bash
-n=0|for((i=0;i<${#WATER}|i++))|do n=$((n*${#water}+${water%%${WATER:i:1}*}))|done|for((i=0|i<${#STIR}|i++))|do n=$((n*${#stir}+${stir%%${STIR:i:1}*}))|done;while((n))|do res="${bestchol:n%${#bestchol}:1}$res"|n=$((n/${#bestchol}))|done|echo $res
+echo "${WATER/$WATER/shtbeolhc}"
